@@ -16,8 +16,15 @@ body {
 .header {
   margin: 1em;
   text-align: center;
+  text-transform: uppercase;
+  font-size: large;
   line-height: 1.5em;
   background-image: linear-gradient(180deg, rgb(0, 195, 255), rgb(0, 110, 255));
+  box-shadow: 0px 4px 5px #333232;
+}
+
+.header-text {
+  padding-top: 2em;
 }
 
 .header-text p {
@@ -28,6 +35,11 @@ body {
 
 .header-spacing {
   padding-bottom: 2em;
+}
+
+header nav div div a {
+  color: white;
+  text-decoration: none;
 }
 
 /* MAIN */
