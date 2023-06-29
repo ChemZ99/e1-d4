@@ -13,8 +13,8 @@ body {
 /* HEADER */
 .header {
   margin: 1em;
-
   text-align: center;
+  line-height: 1.5em;
   background-image: linear-gradient(180deg, rgb(0, 195, 255), rgb(0, 110, 255));
 }
 
@@ -24,17 +24,67 @@ body {
   padding-bottom: 2em;
 }
 
-.header-text 
+.header-spacing {
+  padding-bottom: 2em;
+}
 
 /* MAIN */
 
-.main-style {
+.mainA {
+  line-height: 1em;
   background-color: white;
-  margin: 1em;
   border: 1px solid lightgray;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.mainB {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+.title {
+  margin-top: 1em;
+  font-size: xx-large;
+  line-height: 1.5em;
+}
+
+main h4 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: lightgrey;
+}
+
+main p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+main div ul {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+main div ol {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.purple-strong {
+  font-weight: 700;
+  color: purple;
+}
+
+.encased {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(177, 199, 221);
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 10%;
+  display: inline-block;
+}
 
 /* TABELLE */
 
