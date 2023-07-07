@@ -19,11 +19,11 @@
           <img src="./assets/img/logo.svg" alt="Logo Epicode" height="60" />
           <p>Epicode - Il blog dei developers</p>
           <div class="header-spacing">
-            <div><a href="#">&rArr; Home &lArr;</a></div>
+            <div><a class="noline" href="#">&rArr; Home &lArr;</a></div>
 
-            <div><a href="#">&rArr; Articoli &lArr;</a></div>
+            <div><a class="noline" href="#">&rArr; Articoli &lArr;</a></div>
 
-            <div><a href="#">&rArr; Lavora con noi &lArr;</a></div>
+            <div><a class="noline" href="#">&rArr; Lavora con noi &lArr;</a></div>
           </div>
         </nav>
       </header>
@@ -40,7 +40,7 @@
                 <span class="purple-strong">parti comuni</span> da applicare a tutte le pagine
                 <br />
                 <p>Le varie aree saranno quindi suddivise in:</p>
-                <ul>
+                <ul class="spacing">
                   <li>Contenuti di intestazione del tag <span class="encased">&lt;header&gt;</span></li>
                   <li>
                     Contenuti centrali variabili del tag
@@ -59,7 +59,7 @@
                   <span class="purple-strong"> selezionare con i CSS.</span>
                   Percio' i passi saranno:
                 </p>
-                <ol>
+                <ol class="spacing">
                   <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
                   <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
                   <li>Applicare gli stili CSS</li>
@@ -68,7 +68,7 @@
                   L'applicazione di stili CSS e' cresciuta negli anni fino a raggiungere la diffusione pressoche' totale
                 </p>
                 <p class="table-title">Diffusione dei CSS</p>
-                <table>
+                <table class="spacing">
                   <tr>
                     <thead>
                       <td>Anno</td>
@@ -114,15 +114,17 @@
                 Un test di validazione potra' essere fatto tramite il
                 <strong><a href="#">tool online</a></strong> dedicato allo scopo. Una volta ottimizzato il tutto, avremo
                 raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
-                <hr />
-                <iframe
-                  width="100%"
-                  src="https://www.youtube.com/embed/w_NqMcNOtxw"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
+
+                <div class="iframe">
+                  <iframe
+                    width="100%"
+                    src="https://www.youtube.com/embed/w_NqMcNOtxw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </article>
             </div>
             <div class="form-bg">
@@ -141,35 +143,38 @@
                 <input class="input-button" type="submit" value="Iscriviti!" />
               </form>
             </div>
-            <hr />
+
             <section>
-              <p>Articoli correlati</p>
-              <div>
-                <a href="#">Validare il codice HTML</a>
-                <p>Categoria: develop</p>
-                <p>Data: 18-9-2020</p>
+              <p class="footitle">ARTICOLI CORRELATI</p>
+              <div class="card-bg">
+                <div class="card1">
+                  <a class="link" href="#">Validare il codice HTML</a>
+                  <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                </div>
+                <p class="card2"><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
               </div>
-              <div>
-                <a href="#">Correggere la sintassi</a>
-                <p>Categoria: develop</p>
-                <p>Data: 16-9-2020</p>
+              <div class="card-bg">
+                <div class="card1">
+                  <a class="link" href="#">Correggere la sintassi</a>
+                  <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                </div>
+                <p class="card2"><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
               </div>
-              <div>
-                <a href="#">Meno kb nella pagina</a>
-                <p>Categoria: ottimizzazione</p>
-                <p>Data: 30-9-2020</p>
+              <div class="card-bg">
+                <div class="card1">
+                  <a class="link" href="#">Meno kb nella pagina</a>
+                  <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+                </div>
+                <p class="card2"><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
               </div>
-              <hr />
             </section>
           </div>
         </div>
       </main>
-      <footer>
-        <p>Blog Epicode &#169;2023</p>
-        <p>
-          Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
-        </p>
-        <a href="mailto:info@epicode.school">info@epicode.school</a>
+      <footer class="mainB">
+        <p class="spacing">Blog Epicode &#169;2023</p>
+        <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.</p>
+        <p>P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></p>
       </footer>
     </div>
   </body>

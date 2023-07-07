@@ -8,18 +8,18 @@ body * {
 .bg-rules {
   background-image: url(../img/sfondo.png);
   background-size: 800px 35%;
-  background-position: -220px -300px;
+  background-position: -220px -400px;
   background-repeat: repeat-y;
   overflow: hidden;
 }
 /* HEADER */
 .header {
-  margin: 1em;
+  margin: 1.5em;
   text-align: center;
   text-transform: uppercase;
   font-size: large;
   line-height: 1.5em;
-  background-image: linear-gradient(180deg, rgb(0, 195, 255), rgb(0, 55, 128));
+  background-image: linear-gradient(180deg, #01aacd, #0b5f9d);
   box-shadow: 0px 4px 5px #333232;
 }
 
@@ -47,8 +47,7 @@ header nav div div a {
   line-height: 1em;
   background-color: white;
   border: 1px solid lightgray;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin: 1.5em;
   box-shadow: 0px 6px 10px #4d4d4d;
 }
 
@@ -78,11 +77,6 @@ main h4 {
   line-height: 1.5;
 }
 
-main p {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 main div ul {
   margin-left: 2em;
   margin-right: 1.5em;
@@ -105,6 +99,15 @@ main div ol {
   display: inline-block;
 }
 
+.spacing {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.noline {
+  text-decoration: none;
+}
+
 /* TABELLE */
 
 .table-title {
@@ -124,7 +127,7 @@ table tbody {
 }
 
 thead {
-  background-color: rgb(20, 53, 161);
+  background-color: #3366cc;
   color: white;
 }
 
@@ -141,22 +144,90 @@ form {
 .form-bg {
   text-align: center;
   line-height: 1.5em;
-  background-color: #cacaca;
+  background-color: #ddddde;
 }
 
 .input-field {
   border: 0;
   padding: 0;
   border-bottom: #333232 1px dashed;
-  content
 }
 
 .input-button {
   font-weight: 700;
   color: white;
-  background-color: blue;
+  background-color: #3366cc;
+  border: 0;
 }
 
 /* ELEMENTI NELL' ASIDE */
 
+strong a {
+  color: #3366cc;
+}
+
+.iframe {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+iframe {
+  border-radius: 30px;
+}
+
+h2 {
+  font-size: x-large;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
 /* FOOTER */
+
+.footitle {
+  font-size: x-large;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.card-bg {
+  background-color: #ddddde;
+  border: 1px solid #cccccc;
+  margin-bottom: 1em;
+}
+
+.card1 {
+  padding-left: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.card2 {
+  padding-right: 1em;
+  padding-bottom: 1.5em;
+  text-align: right;
+}
+
+.link {
+  color: #51b2d7;
+  font-weight: 600;
+  font-size: larger;
+}
+
+footer {
+  background-image: linear-gradient(180deg, #005566, #2a3338);
+  margin-bottom: 1em;
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+footer p a {
+  color: #cc26e0;
+}
